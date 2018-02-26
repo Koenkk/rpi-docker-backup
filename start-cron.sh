@@ -9,4 +9,5 @@ fi
 cp /crontab /etc/crontabs/root
 
 # Run cron in the foreground
+echo "Running cron in foreground"
 crond -f
