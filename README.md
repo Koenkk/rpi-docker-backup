@@ -3,6 +3,8 @@ This image automatically:
 * Backups your files at 04:00 (overwrite `/crontab` to change this)
 * Keeps only the last 5 backups (removes older ones) 
 
+Source: https://github.com/Koenkk/rpi-docker-backup
+
 ## Running
 ```bash
 docker run \
